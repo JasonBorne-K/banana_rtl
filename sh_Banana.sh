@@ -21,7 +21,7 @@ cnt=$((cnt+1))
 mv R_3MB_"$old".mdt R_3MB_"$cnt".mdt
 old=$((old+1))
 #sleep 1
-if [ $old -eq 10001 ]; then
+if [ $old -eq 10 ]; then
 break;
 fi
 
